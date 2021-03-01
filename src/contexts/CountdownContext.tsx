@@ -35,7 +35,7 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
   const seconds = time % 60;
 
   function countdownTime() {
-    return 25 * 60;
+    return 0.05 * 60;
   }
 
   function startCountdown() {
